@@ -18,18 +18,18 @@
 
   <header>
     <section class="container-fluid">
-      <h1 class="fw-bold text-primary pt-3 ps-3">FontIcons</h1>
+      <h1 class="fw-bold text-primary pt-3 ps-2">FontIcons</h1>
     </section>
 
     <div class="bg-primary bg-gradient py-3">
 
       <form action="" class="d-flex justify-content-center">
         <h3 class="m-0 text-center text-white pe-3">Filtra per tipo</h3>
-        <select name="categoria" class="form-select" style="width: 120px;">
-          <option value="1">All</option>
-          <option value="2">Animal</option>
-          <option value="3">Vegetable</option>
-          <option value="4">User</option>
+        <select name="categoria" id="select-category" class="form-select" style="width: 120px;">
+          <option value="all">All</option>
+          <option value="animal">Animal</option>
+          <option value="vegetable">Vegetable</option>
+          <option value="user">User</option>
         </select>
       </form>
     </div>
@@ -37,7 +37,26 @@
 
 
   <main>
+    <section class="container-fluid pt-5">
+      <div id="icons-container" class="row row-cols-5 card-container g-5">
+        <!--
+          JS
+          -->
 
+        <!-- <div class="col">
+          <div class="card h-100 shadow-sm">
+            <div class="card-img-top text-center h-100" style="font-size: 50px;">
+              <i class="fas fa-cat" style="color: red;"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-title text-center fw-bold m-0">Cat</div>
+            </div>
+          </div>
+        </div> -->
+
+
+      </div>
+    </section>
   </main>
 
   <script src="js/datiIniziali.js"></script>
